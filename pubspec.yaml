@@ -1,0 +1,47 @@
+name: luna
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  translator: ^1.0.0
+  permission_handler: ^11.3.1  # Use the latest version
+  lottie: ^3.1.2
+  hive: ^2.2.0 
+  path_provider: ^2.1.4
+  get: ^4.6.6
+  flutter_animate: ^4.5.0
+  hive_flutter: ^1.1.0
+  http: 1.2.2 
+  google_generative_ai: 
+  saver_gallery: ^3.0.6 
+  intl: ^0.18.0
+  connectivity_plus: ^2.3.0
+  brain_fusion: ^0.1.1
+  dio: ^5.7.0
+  # gallery_saver_updated: ^2.0.0 # Correct name and version for gallery saver
+  cached_network_image: ^3.4.1
+  share_plus: ^10.0.2
+  stability_image_generation: ^0.0.4
+  device_info_plus: ^11.0.0
+  adaptive_theme: ^3.6.0
+  
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
